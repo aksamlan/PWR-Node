@@ -1,6 +1,9 @@
 
 ### **PWR Zincir Doğrulayıcı Düğüm ve RPC Düğüm Kılavuzu**
 
+### Explore : [Burdan](https://explorer.pwrlabs.io/)
+### Twitter : [Burdan](https://x.com/pwrlabs)
+
 ### **Doğrulayıcı Düğüm Kılavuzu**
 
 **Önemli Not**: Bu, ilk testnet lansmanıdır. Mükemmellik için çabalarken öngörülemeyen sorunlar olabilir. [Discord sunucumuzda](https://discord.gg/DJkcuy9SAg) bildirilen tüm geri bildirimleri, hata raporlarını veya diğer sorunları takdir ediyoruz.
