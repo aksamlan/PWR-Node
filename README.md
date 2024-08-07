@@ -45,9 +45,12 @@
    sudo java -jar validator.jar --import-key <private key here> password
    ```
 
-6. **Düğümü Çalıştır**:
+6. **Düğümü Çalıştıralım**:
 
    `<YOUR_SERVER_IP>` kısmını sunucunuzun gerçek IP'si ile değiştirin.
+   ```bash
+   screen -S pwr
+   ```
    ```bash
    sudo java -jar validator.jar password <YOUR_SERVER_IP> --compression-level 0
    ```
@@ -68,16 +71,10 @@
    
    - Coinlerinizi talep ettikten sonra, node'unuz doğrulayıcı olarak kaydolmak için bir işlem başlatacaktır.
 
-10. **Arka Planda Çalışma**:
 
-    Eğer node'u arka planda çalıştırmak istiyorsanız ve terminali kapattıktan sonra da aktif kalmasını istiyorsanız `nohup` komutunu kullanın:
+10. **Özel Anahtarınızı Alma**:
     ```bash
-    nohup sudo java -jar validator.jar password <YOUR_SERVER_IP> --compression-level 0 &
-    ```
-
-11. **Özel Anahtarınızı Alma**:
-    ```bash
-    nohup sudo java -jar validator.jar get-private-key password
+    sudo java -jar validator.jar get-private-key password
     ```
     Bir hex dize özel anahtarı döndürülecektir. Bu anahtar [PWR Tarayıcı Cüzdanı](https://chromewebstore.google.com/u/3/detail/pwr-wallet/kennjipeijpeengjlogfdjkiiadhbmjl) içinde kullanılabilir
 
